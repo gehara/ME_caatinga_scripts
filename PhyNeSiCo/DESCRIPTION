@@ -1,0 +1,21 @@
+Package: PhyNeSiCo
+Type: Package
+Title: Phylogenetic Network Simulator under the Coalescent.
+Version: 0.0.1
+Date: 2017-08-31
+Authors@R: c(person("Marcelo", "Gehara", email = "marcelo.gehara@gmail.com", role = c("aut", "cre")),
+             person("Frank","Burbrink", role="aut"))
+Imports:  ape,
+          RPANDA,
+          phybase,
+          phyclust,
+          phangorn,
+          PipeMaster,
+          e1071,
+          msm
+          
+Description: PhyNeSiCo simulates species trees with bifurcation and reticulation.
+License: GPL (>= 2)
+URL: http://www.marcelogehara.org/
+BugReports: https://github.com/gehara/PhyNeSiCo
+LazyData: TRUE
